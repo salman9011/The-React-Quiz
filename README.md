@@ -1,4 +1,4 @@
-# The React Quiz
+# The React Quiz 📖
 
 A React-based quiz application that allows users to answer questions, track time, and see their scores. The app uses `useReducer` for state management and integrates a timer to limit the time per question. A mock backend is set up using **JSON Server** to simulate an API for fetching quiz questions.
 
