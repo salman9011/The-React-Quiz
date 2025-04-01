@@ -1,4 +1,7 @@
-function NextButton({dispatch, answer,totalQuestions, index}){
+import { useQuiz } from "./context/QuizContext";
+
+function NextButton(){
+    const {dispatch, answer,totalQuestions, index} = useQuiz();
     if(answer===null) return null;
     //? we will not show button till we have not selected any answer in start
    if(index < totalQuestions-1 ) return(
